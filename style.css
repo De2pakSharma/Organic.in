@@ -794,6 +794,13 @@ padding: 5px 10px !important;
    height: 90px;
    width: 90px;
  }
+ .form-input,.submit-btn{
+   padding: 8px 20px;
+   font-size: 0.70rem;
+   font-weight: 600;
+   
+
+ }
 
 }
 @media (max-width: 480px) {
