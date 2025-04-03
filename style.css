@@ -1,4 +1,4 @@
-  *{
+ *{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
@@ -671,6 +671,10 @@
 
 
 @media (max-width: 576px) {
+   .navbar-toggler-icon{
+      height: 20px !important;
+      width: 20px !important;
+   }
    .card {
       height: auto !important; /* Adjust this value as needed */
     }
