@@ -1,4 +1,4 @@
-*{
+   *{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
@@ -790,20 +790,22 @@ padding: 5px 10px !important;
    padding: 10px 18px; /* Make the button slightly smaller */
    font-size: 0.5rem; /* Adjust button text size */
  }
+ .product-image{
+   height: 90px;
+   width: 90px;
+ }
 
 }
 @media (max-width: 480px) {
-   .image-text{
-  padding: 10% !important;
-   }
+  
    .image-text h3 {
-       font-size: 14px;
+       font-size: 12px;
    }
    .image-text p {
-       font-size: 10px;
+       display: none;
    }
    .image-text .badge {
-       font-size: 8px;
+       font-size: 7px;
        padding: 2px 6px;
    }
 }
